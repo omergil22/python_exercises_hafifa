@@ -22,8 +22,6 @@ def sumListOfNumbers(numbers_list):
    return [[s:=0],[[s:=s+number] for number in numbers_list]][1][-1][0]
 
 
-print(sumListOfNumbers([1,1,3,5,6,8]))
-
 ## q3
 def removeVowels(word):
     return ''.join([char for char in word if char not in "auoie"])
