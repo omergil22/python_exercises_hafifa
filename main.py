@@ -15,10 +15,6 @@ def getDigitFromString(string_digit):
 
 ## q2
 def sumListOfNumbers(numbers_list):
-   return s if [[s:=0],[[s:=s+number] for number in numbers_list]] else None
-
-## q2
-def sumListOfNumbers(numbers_list):
    return [[s:=0],[[s:=s+number] for number in numbers_list]][1][-1][0]
 
 
